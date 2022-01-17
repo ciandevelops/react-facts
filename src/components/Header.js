@@ -2,15 +2,15 @@ import reactLogo from "../images/logo.png";
 
 const Header = () => {
   return (
-    <div>
+    <nav>
       <div>
         <img src={reactLogo} alt="logo" />
       </div>
 
       <div>
-        <h1>React Course - Project 1</h1>
+        <h3>React Course - Project 1</h3>
       </div>
-    </div>
+    </nav>
   );
 };
 

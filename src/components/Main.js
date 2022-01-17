@@ -1,6 +1,6 @@
 const Main = () => {
   return (
-    <div>
+    <main>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -9,7 +9,7 @@ const Main = () => {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-    </div>
+    </main>
   );
 };
 
