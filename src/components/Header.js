@@ -1,7 +1,15 @@
+import reactLogo from "../images/logo.png";
+
 const Header = () => {
   return (
     <div>
-      <h1>Header w/ Nav</h1>
+      <div>
+        <img src={reactLogo} alt="logo" />
+      </div>
+
+      <div>
+        <h1>React Course - Project 1</h1>
+      </div>
     </div>
   );
 };
