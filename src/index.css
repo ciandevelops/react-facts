@@ -5,3 +5,56 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222a;
+  padding: 30px 25px;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > * {
+  padding: 5px;
+}
+
+.logo-text {
+  color: #61dafb;
+}
+
+.title-text {
+  color: #deebf8;
+}
+
+main {
+  background-color: #282d35;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  padding-left: 27px;
+  padding-top: 57px;
+  padding-bottom: 46px;
+}
+
+li {
+  color: #ffffff;
+}
+
+ul {
+  padding: 50px;
+}
+
+ul > li {
+  padding-bottom: 20px;
+}
