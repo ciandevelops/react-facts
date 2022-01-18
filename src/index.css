@@ -41,23 +41,29 @@ body {
 main {
   background-color: #282d35;
   height: 100vh;
+  padding: 57px 27px;
 }
 
 h1 {
   color: white;
-  padding-left: 27px;
-  padding-top: 57px;
-  padding-bottom: 46px;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  margin: 0;
 }
 
 li {
   color: #ffffff;
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 1.6rem;
 }
 
 ul {
-  padding: 50px;
-}
-
-ul > li {
-  padding-bottom: 20px;
+  margin-top: 46px;
+  max-width: 400px;
+  padding-left: 50px;
 }
