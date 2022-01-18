@@ -29,10 +29,13 @@ body {
 
 .logo-text {
   color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .title-text {
   color: #deebf8;
+  font-weight: 600;
 }
 
 main {
