@@ -1,6 +1,6 @@
 import reactLogo from "../images/logo.png";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <nav className="nav">
       <div className="left-nav">
@@ -9,6 +9,14 @@ const Header = () => {
       </div>
 
       <h4 className="title-text">React Course - Project 1</h4>
+
+      <div className="toggler">
+        <p className="toggler--light">Light</p>
+        <div className="toggler--slider" onClick={props.toggleDarkMode}>
+          <div className="toggler--slider--circle"></div>
+        </div>
+        <p className="toggler--dark">Dark</p>
+      </div>
     </nav>
   );
 };
